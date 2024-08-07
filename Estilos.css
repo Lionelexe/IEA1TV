@@ -1,0 +1,136 @@
+/* Estilos.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black; 
+    color: white; 
+    position: relative; 
+    background-image: url('Imagenes/fondo.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    text-align: justify; /* Texto justificado */
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header img {
+    width: 50px;
+    vertical-align: middle;
+}
+
+header h1 {
+    display: inline;
+    margin-left: 10px;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+}
+
+.imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px; /* Reduce el espacio entre las imágenes */
+    justify-content: center;
+}
+
+.imagenes img {
+    width: 350px; /* Ajusta el tamaño de las imágenes */
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+.imagenes img:hover {
+    transform: scale(1.05);
+}
+
+#productos ul, #ofertas ul, #proximos-productos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#productos ul li, #ofertas ul li, #proximos-productos ul li {
+    margin-bottom: 20px;
+}
+
+#productos ul li img, #ofertas ul li img, #proximos-productos ul li img {
+    width: 150px; /* Ajusta el tamaño de las imágenes de productos */
+    height: auto;
+    display: block;
+    margin-left: 0; /* Ajusta la posición de las imágenes a la izquierda */
+}
+
+.video-container {
+    margin: 20px 0;
+}
+
+.video-proyecto {
+    width: 350%; /* Reduce el tamaño del video */
+    max-width: 250px; /* Ajusta el tamaño máximo del video */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.video-container {
+    margin: 35px 0;
+}
+
+.video-bienvenida {
+
+    margin: 200px 0;
+    width: 350%;
+    max-width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
